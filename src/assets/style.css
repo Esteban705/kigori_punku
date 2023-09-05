@@ -1,0 +1,861 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+  }
+  :root {
+    --green: #218c74;
+    --red: #b33939;
+    --darkblue: #227093;
+    --blue: #03a9f4;
+  }
+  ul {
+    list-style: none;
+
+  }
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+
+  a:hover {
+    color: white;
+  }
+  img {
+    height: 1rem;
+    width: 2rem;
+  }
+  /*
+  ==============================
+  ========================
+    Page-Header 
+  ========================
+  ==============================
+  */
+  .page {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .page-header {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    padding: 0 10rem 0 7rem;
+  }
+
+  .img-clientes{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .page-header ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .page-header li {
+    margin-left: 30px;
+    position: relative;
+    font-size: 20px;
+    transition: 0.3s;
+    border-bottom: 1px solid #eee;
+  }
+  .page-header h2 {
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: rgba(238, 238, 238, 0.329);
+    border-radius: 3px;
+    padding: 5px 15px;
+    transition: 0.3s;
+  }
+  /* .color-fondo {
+    background: rgb(49,38,230);
+  background: linear-gradient(180deg, rgba(49,38,230,1) 0%, rgba(0,212,255,1) 100%, rgba(6,6,237,1) 100%);
+  } */
+  /*
+  ==========================
+    Animation Navigate bar
+  ==========================
+  */
+  .page-header li:hover {
+    border-bottom: 3px solid red;
+    transform: translateY(5px);
+    color: var(--blue);
+  }
+  .page-header h2:hover {
+    transform: scale(1.03);
+    background-color: var(--blue);
+    color: white;
+  }
+  /*
+  ==========================
+  =====================
+    Subject
+  =====================
+  ==========================
+  */
+
+ @media only screen and (max-width: 768px) {
+  
+    .subject {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-color: #eee;
+      padding: 20px;
+  }
+}
+
+@media (min-width:768px){
+  .subject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    width: 100%;
+    background-color: #eee;
+    padding: 20px;
+  }
+}
+  
+ 
+  .subject h1 {
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+  }
+  .subject h1 span {
+    color: var(--blue);
+  }
+  .subject p {
+    font-size: 17px;
+    text-align: center;
+    width: 70%;
+    margin-top: 10px;
+  }
+  
+  /*
+  ==========================
+  =====================
+    Features
+  =====================
+  ==========================
+  */
+  .features {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .features img {
+    width: 70px;
+    height: 70px;
+  }
+  .features p,
+  .features h2 {
+    text-align: center;
+  }
+  .features p {
+    font-size: 13px;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    transition: 0.5s;
+    margin-bottom: 2rem;
+
+  }
+
+  
+  .classResponsive{
+    width: 15.5rem;
+    font-size: 18px;
+    line-height: 31px;
+    margin-bottom: 15px;
+  }
+  /*
+  ======================
+    Animation Features
+  ======================
+  */
+ /*  .feature-1:hover,
+  .feature-2:hover,
+  .feature-3:hover {
+    transform: scale(1.06);
+    background-color: #46cadb;
+    height: 94%;
+  } */
+  /*
+  ==========================
+  =====================
+    About Us
+  =====================
+  ==========================
+  */
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    background-color: #eee;
+    padding: 40px;
+  }
+  .about img {
+    height: 100%;
+    width: 42%;
+}
+  .about h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  .about  {
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+  }
+  .feature-1 p {
+    font-size: 20px;
+  }
+  .feature-2 p {
+    font-size: 20px;
+  }
+  .feature-3 p {
+    font-size: 20px;
+  }
+  .feature-1 h2 {
+    font-size: 25px;
+  }
+  .feature-2 h2 {
+    font-size: 25px;
+  }
+  .feature-3 h2 {
+    font-size: 25px;
+  }
+
+  .about .right-box,
+  img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: calc(100% / 2);
+  }
+  .about .right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  
+  /*
+  ==========================
+  =====================
+    Numbers
+  =====================
+  ==========================
+  */
+  
+  .numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    padding: 0 30px;
+    transition: 0.5s;
+  }
+  
+  .numbers div {
+    width: calc(75% / 3);
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 15px;
+    transition: 0.5s;
+  }
+  .numbers div span {
+    font-size: 12px;
+    margin-top: 3px;
+    transition: 0.5s;
+  }
+  .numbers div:nth-child(1) {
+    background-color: var(--red);
+    font-size: 30px;
+  }
+  .numbers div:nth-child(2) {
+    background-color: var(--darkblue);
+    font-size: 30px;
+  }
+  .numbers div:nth-child(3) {
+    background-color: var(--green);
+    font-size: 30px;
+  }
+  .numbers div h2 {
+    transition: 0.5s;
+  }
+  /*
+  ======================
+    Animation Numbers
+  ======================
+  */
+  .numbers div:hover h2 {
+    transform: translateY(50px);
+    font-size: 35px;
+  }
+  .numbers div:hover span {
+    transform: translateY(-55px);
+    font-size: 40px;
+  }
+  .numbers div:hover {
+    transform: skewX(5deg);
+    filter: drop-shadow(0 0 0.75rem rgb(122, 106, 109));
+  }
+  .numbers div:nth-child(2):hover {
+    transform: skewX(-5deg);
+  }
+  
+  /*
+  ==========================
+  =====================
+    Our Skills
+  =====================
+  ==========================
+  */
+  .our-skills {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #eee;
+    position: relative;
+  }
+  .our-skills h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  /*
+    =================
+    nth-child(2)
+    =================
+  */
+  .our-skills div:nth-child(2) {
+    margin-top: 10px;
+    width: 900px;
+    background-image: linear-gradient(to right, #03a9f4 60%, white 60%);
+    height: 50px;
+    margin-left: 140px;
+    position: relative;
+  }
+  .our-skills div:nth-child(2)::before {
+    content: "HTML";
+    position: absolute;
+    left: -96px;
+    font-size: 30px;
+    font-weight: bold;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-skills div:nth-child(2)::after {
+    content: "60%";
+    position: absolute;
+    right: 60%;
+    top: 2px;
+    transform: translateX(162px);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*
+    =================
+    nth-child(3)
+    =================
+  */
+  .our-skills div:nth-child(3) {
+    margin-top: 35px;
+    width: 900px;
+    background-image: linear-gradient(to right, #03a9f4 70%, white 70%);
+    height: 50px;
+    margin-left: 140px;
+    position: relative;
+  }
+  .our-skills div:nth-child(3)::before {
+    content: "CSS";
+    position: absolute;
+    left: -65px;
+    font-size: 30px;
+    font-weight: bold;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-skills div:nth-child(3)::after {
+    content: "70%";
+    position: absolute;
+    right: 60%;
+    top: 2px;
+    transform: translateX(253px);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*
+    =================
+    nth-child(4)
+    =================
+  */
+  .our-skills div:nth-child(4) {
+    margin-top: 35px;
+    width: 900px;
+    background-image: linear-gradient(to right, #03a9f4 80%, white 80%);
+    height: 50px;
+    margin-left: 140px;
+    position: relative;
+  }
+  .our-skills div:nth-child(4)::before {
+    content: "JavaScript";
+    position: absolute;
+    left: -150px;
+    font-size: 30px;
+    font-weight: bold;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-skills div:nth-child(4)::after {
+    content: "80%";
+    position: absolute;
+    right: 60%;
+    top: 2px;
+    transform: translateX(340px);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*
+    =================
+    nth-child(5)
+    =================
+  */
+  .our-skills div:nth-child(5) {
+    margin-top: 35px;
+    width: 900px;
+    background-image: linear-gradient(to right, #03a9f4 65%, white 65%);
+    height: 50px;
+    margin-left: 140px;
+    position: relative;
+  }
+  .our-skills div:nth-child(5)::before {
+    content: "PHP";
+    position: absolute;
+    left: -72px;
+    font-size: 30px;
+    font-weight: bold;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-skills div:nth-child(5)::after {
+    content: "65%";
+    position: absolute;
+    right: 60%;
+    top: 2px;
+    transform: translateX(207px);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*
+    =================
+    nth-child(6)
+    =================
+  */
+  .our-skills div:nth-child(6) {
+    margin-top: 35px;
+    width: 900px;
+    background-image: linear-gradient(to right, #03a9f4 90%, white 90%);
+    height: 50px;
+    margin-left: 140px;
+    position: relative;
+  }
+  .our-skills div:nth-child(6)::before {
+    content: "Python";
+    position: absolute;
+    left: -112px;
+    font-size: 30px;
+    font-weight: bold;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-skills div:nth-child(6)::after {
+    content: "90%";
+    position: absolute;
+    right: 60%;
+    top: 2px;
+    transform: translateX(430px);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*
+    =================
+    Our Skills End
+    =================
+  */
+  
+  /*
+  ==========================
+  =====================
+    Footer
+  =====================
+  ==========================
+  */
+
+
+  .classNameActived {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 22rem; */
+    transition: 0.5s;
+    /* animation: animate__swing animate__delay-2s; */
+  }
+  .classNameActived img {
+    width: 15%;
+    height: 20%;
+  }
+  .classNameActived p,
+  .classNameActived h2 {
+    text-align: left;
+    padding: 10px;
+  }
+  .classNameActived p {
+    font-size: 18px;
+  }
+  .classDisplayNone{
+    display: none;
+  }
+
+  .classNameFeatures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 25rem;
+  }
+  
+  .classNameH6{
+    width: 100%;
+    font-size: 18px;
+    line-height: 31px;
+    margin-bottom: 15px;
+}
+  .classname4{
+    width: 30rem;
+    font-size: 18px;
+    line-height: 31px;
+  }
+  
+  .classNameOrigin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    transition: 0.5s;
+  }
+
+  .color{
+    color: rgb(63, 81, 181);
+    font-size: 28px;
+  }
+
+
+
+  .classNameOriginLeft{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    transition: 0.5s;
+  }
+
+  .classNameOriginLeft:hover{
+    transform: scale(1.20);
+    background-color: #46cadb;
+    height: 100%;
+    margin-left: 40px;
+  }
+
+  .classNameOrigin:hover{  
+  transform: scale(1.20);
+  background-color: #46cadb;
+  height: 100%;
+  margin-right: 50px;
+}
+  .classNameH7{
+    font-size: 18px;
+  }
+  
+  .clasNameFeature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+  }
+
+  .clasNameFeature img {
+    width: 100px;
+    height: 300px;
+
+  }
+  .clasNameFeature p,
+  .clasNameFeature h2 {
+    text-align: center;
+  }
+  .clasNameFeature p {
+    font-size: 13px;
+  }
+
+
+  
+@media (max-width: 680px) {
+  .caquita {
+    background-image: url(/src/assets/imagenMinera2.JPG);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+  }
+}
+@media (min-width: 768px) {
+  .caquita {
+    background-image: url(/src/assets/imagenMinera2.JPG);
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+  }
+}
+
+
+@media (min-width: 680px){
+  .responsive{
+    display: none;
+  }
+}
+
+.responsive{
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  padding: 0 10rem 0 7rem;
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+}
+
+.icon-class{
+  position: absolute;
+  right: 0px;
+  height: 3.5rem;
+  width: 6rem;
+  top: 31px;
+}
+
+.img-responsive{
+  position: absolute;
+  left: 7px;
+}
+
+.aboutResponsive{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: #eee;
+}
+
+
+.formulariol{
+  height: 30rem;
+  width: 20rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+  background: white;
+
+}
+
+
+@media only screen and (min-width:768px){
+  .formulariol {
+    height: 30rem;
+    width: 36rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    background: white;
+  }
+}
+
+
+.formulario {
+  height: 65rem;
+  width: 21rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+@media only screen and (min-width:768px){
+  .formulario {
+    height: 66rem;
+    width: 36rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    background: white;
+  }
+}
+
+formulario__input,
+.formulario__label {
+  display: block;
+  width: 100%;
+  font-size: 1, 3em;
+}
+.formulario__input {
+  padding: 10px;
+  background: transparent;
+  /* puedo colocar otro color pero con transparencia asi: background: rgba(0,0,0,0.1) porque sino no se ven las label, aunque ya no es necesario porque ya no estan sobre los input y ademas le quite el z-index*/
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  border-radius: 10px;                                           
+}
+.formulario__input:focus {
+  /*outline: 1px solid rgba(0,0,0,0.7);*/
+  outline: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+}
+
+.formulario__label {
+  padding-left: 15px;
+  /*position: absolute;*/
+  /*margin-top: -78px;*/
+  /*z-index: -20;*/
+  color: rgba(0, 0, 0, 0.7);
+  /*transition: all 0.2s;*/
+  margin: 2px;
+}
+
+
+/*Centrar los campos del formulario (Los input y el boton de Enviar al WhatsApp, que tambien es un input)*/
+
+.formulario__input {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alert{
+  display: none;
+}
+
+
+@media only screen and (max-width:  680px) {
+  .icons{
+    font-size: 40px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .icons{
+    font-size: 60px
+  }
+
+}
+
+.nave {
+	width: 100%;
+	max-width:1000px;
+  top: 0;
+  background-color: rgb(34, 30, 29);
+  position: fixed;
+  z-index: 20;
+  height: 100%;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.imgContenedor{
+  width:630px;
+  height:380px;
+  overflow:hidden;
+}
+
+.clase{
+  display: block;
+}
+
+.claseOut{ 
+  display: none;
+}

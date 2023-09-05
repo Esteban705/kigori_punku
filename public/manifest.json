@@ -3,18 +3,488 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "Logo_Kgori_Punku_Consultora_SRL.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "Logo_Crec_preview_rev_1.png",
+      "type": "image/jfif",
+      "sizes": "64x64 32x32 24x24 16x16"
     },
     {
-      "src": "logo512.png",
+      "src": "Logo_GOLD_SAND_preview_rev_1.png",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "advantage_lithium_preview_rev_1.png",
+      "type": "image/jpeg",
+      "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+      "src": "albemarle_preview_rev_1.png",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "argentina_lithium.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "energy_preview_rev_1.png",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "liex SA_preview_rev_1.png",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "Logo Livent_preview_rev_1.png",
       "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "minera_santa_rita_preview_rev_1.png",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "sales_de_jujuy_preview_rev_1.png",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "south_american_salars_preview_ewqeq1.png.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "argentina_lithium_preview_rev_1.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "sullair_preview_rev_1.png",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "ymad.jpeg",
+      "type": "image/jpeg",
+      "sizes": "199x87"
+    },
+    {
+      "src": "imagenSobrenosotros.webp",
+      "type": "image/webp",
+      "sizes": "199x87"
+    },
+    {
+      "src": "catamarca-minera.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "china_group.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "hidroper.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "sullair.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "ymad.jpeg",
+      "type": "image/jpeg",
+      "sizes": "199x87"
+    },
+    {
+      "src": "img-cartel.jpg",
+      "type": "image/jpp",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera2.JPG",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera3.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera4.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera5.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera6.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera7.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera8.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "img12.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera10.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera11.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imgMision_preview_rev_1.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "img-fondo.jpeg",
+      "type": "img-fondo.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "worley.png",
+      "type": "worley.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "borax.jpeg",
+      "type": "borax.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "galaxy_preview_rev_1.png",
+      "type": "galaxy_preview_rev_1.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera11.jpeg",
+      "type": "imagenMinera11.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera12.jpeg",
+      "type": "imagenMinera12.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera13.jpeg",
+      "type": "imagenMinera13.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera14.jpeg",
+      "type": "imagenMinera14.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera15.jpeg",
+      "type": "imagenMinera15.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "videoMinera7.mp4",
+      "type": "videoMinera.mp4",
+      "sizes": "512x512"
+    },
+    {
+      "src": "videoMinera8.mp4",
+      "type": "videoMinera2.mp4",
+      "sizes": "512x512"
+    },
+    {
+      "src": "videoMinera9.mp4",
+      "type": "videoMinera3.mp4",
+      "sizes": "512x512"
+    },
+    {
+      "src": "videoMinera5.mp4",
+      "type": "videoMinera5.mp4",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera17.jpeg",
+      "type": "imagenMinera17.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera18.jpeg",
+      "type": "imagenMinera18.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera19.jpeg",
+      "type": "imagenMinera19.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera20.jpeg",
+      "type": "imagenMinera20.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera21.jpeg",
+      "type": "imagenMinera21.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera22.jpeg",
+      "type": "imagenMinera22.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera23.jpeg",
+      "type": "imagenMinera23.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera24.jpeg",
+      "type": "imagenMinera24.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera25.jpeg",
+      "type": "imagenMinera25.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera26.jpeg",
+      "type": "imagenMinera26.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera27.jpeg",
+      "type": "imagenMinera27.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera28.jpeg",
+      "type": "imagenMinera28.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera29.jpeg",
+      "type": "imagenMinera29.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera30.jpeg",
+      "type": "imagenMinera30.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera31.jpeg",
+      "type": "imagenMinera31.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera32.jpeg",
+      "type": "imagenMinera32.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera33.jpeg",
+      "type": "imagenMinera33.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera34.jpeg",
+      "type": "imagenMinera34.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera35.jpeg",
+      "type": "imagenMinera35.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagendelcacas.jpeg",
+      "type": "imagendelcacas.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagencaca2.jpeg",
+      "type": "imagencaca2.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logo2.jpeg",
+      "type": "logo2.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logo3.jpeg",
+      "type": "logo3.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen1.png",
+      "type": "logoImagen1.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./Nueva carpeta/logoImagen2_preview_rev_1.png",
+      "type": "logoImagen2.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen3.png",
+      "type": "logoImagen3.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen13.png",
+      "type": "logoImagen13.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen14.png",
+      "type": "logoImagen14.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen4.png",
+      "type": "logoImagen4.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen4.png",
+      "type": "logoImagen4.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen5.png",
+      "type": "logoImagen5.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen6.jpg",
+      "type": "logoImagen6.jpg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen7.png",
+      "type": "logoImagen7.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen8.png",
+      "type": "logoImagen8.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen9.png",
+      "type": "logoImagen9.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen10.png",
+      "type": "logoImagen10.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen12.png",
+      "type": "logoImagen12.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logoImagen13.png",
+      "type": "logoImagen13.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera25.jpeg",
+      "type": "imagenMinera25.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera37.jpeg",
+      "type": "imagenMinera25.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera38.jpeg",
+      "type": "imagenMinera25.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera39.jpeg",
+      "type": "imagenMinera25.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "Logo LEA.png",
+      "type": "Logo LEA.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera40.jpg",
+      "type": "imagenMinera25.jpg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera41.jpg",
+      "type": "imagenMinera25.jpg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera42.jpeg",
+      "type": "imagenMinera25.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera60.jpeg",
+      "type": "imagenMinera25.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera61.jpg",
+      "type": "imagenMinera25.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera62.jpeg",
+      "type": "imagenMinera62.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera64.jpeg",
+      "type": "imagenMinera25.jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "imagenMinera64.jpeg",
+      "type": "imagenMinera64.jpeg",
       "sizes": "512x512"
     }
   ],
